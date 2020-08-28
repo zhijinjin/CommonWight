@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+
+    <com.zhi.commonwight.wight.EditTextWithBt
+        android:id="@+id/ed_bt"
+        app:leftText="-"
+        app:rightText="+"
+        app:defaultValue="1"
+        app:btWidth="30dp"
+        app:btHight="30dp"
+        app:btSpec="10dp"
+        app:ladderValue="2"
+        app:miniValue="-20"
+        app:maxValue="50"
+        android:layout_width="180dp"
+        android:layout_height="35dp"/>
+
+    <com.zhi.commonwight.wight.EditTextWithBt
+        android:layout_marginTop="20dp"
+        android:id="@+id/ed_bt3"
+        app:leftBtBackground="@drawable/cut"
+        app:rightBtBackground="@drawable/add"
+        app:btWidth="25dp"
+        app:btHight="25dp"
+        app:defaultValue="2"
+        app:btSpec="10dp"
+        app:ladderValue="1"
+        app:miniValue="1"
+        app:maxValue="10"
+        android:layout_width="180dp"
+        android:layout_height="30dp"/>
+
+    <com.zhi.commonwight.wight.EditTextWithBt
+        android:layout_marginTop="20dp"
+        android:id="@+id/ed_bt2"
+        app:defaultValue="1"
+        app:leftText="-"
+        app:rightText="+"
+        app:enabled="false"
+        app:btWidth="70dp"
+        app:btHight="40dp"
+        app:btSpec="10dp"
+        app:ladderValue="1"
+        app:miniValue="1"
+        android:layout_width="260dp"
+        android:layout_height="40dp"/>
+
+
+</LinearLayout>

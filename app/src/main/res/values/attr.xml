@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EditTextWithBt">
+        <attr name="btWidth" format="dimension"/>
+        <attr name="btHight" format="dimension"/>
+        <attr name="btSpec" format="dimension"/>
+        <attr name="leftText" format="string"/>
+        <attr name="leftBtBackground" format="color|reference"/>
+        <attr name="rightText" format="string"/>
+        <attr name="rightBtBackground" format="color|reference"/>
+        <attr name="editBackground" format="color|reference"/>
+        <attr name="defaultValue" format="integer"/>
+        <attr name="miniValue" format="integer"/>
+        <attr name="maxValue" format="integer"/>
+        <attr name="ladderValue" format="integer"/>
+        <attr name="enabled" format="boolean"/>
+    </declare-styleable>
+</resources>

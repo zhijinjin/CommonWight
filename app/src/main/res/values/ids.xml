@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="bt_add" type="id"></item>
+    <item name="bt_subtract" type="id"></item>
+</resources>
