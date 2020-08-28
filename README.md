@@ -8,7 +8,8 @@
 ## 功能
 > 点击增加或者减少 步大小数，长按按钮可以快速增减
 ## 使用方式
-    ``<com.zhi.commonwight.wight.EditTextWithBt
+    `` 
+    <com.zhi.commonwight.wight.EditTextWithBt
         android:layout_marginTop="20dp"
         android:id="@+id/ed_bt3"
         app:leftBtBackground="@drawable/cut"
@@ -21,15 +22,18 @@
         app:miniValue="1"
         app:maxValue="10"
         android:layout_width="180dp"
-        android:layout_height="30dp"/>``
+        android:layout_height="30dp"/> 
+        ``
 ## 回调方法
 失去焦点，如键盘提交，都会触发该事件
+`` 
 EditTextWithBt.setOnChangeLisener(new EditTextWithBt.OnChangeLisener() {
             @Override
             public void onChange(String value) {
                 Toast.makeText(MainActivity.this,value,Toast.LENGTH_SHORT).show();
             }
         });
+        `` 
 ## 自定义属性
         <!--按钮宽度-->
         <attr name="btWidth" format="dimension"/>
